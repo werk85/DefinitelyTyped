@@ -1,4 +1,4 @@
-import * as PouchDB from 'pouchdb-core';
+import PouchDB from 'pouchdb-core';
 
 function isString(someString: string) {
 }

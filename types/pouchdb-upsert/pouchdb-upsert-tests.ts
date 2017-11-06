@@ -1,4 +1,4 @@
-import * as pouchdbUpsert from 'pouchdb-upsert';
+import pouchdbUpsert from 'pouchdb-upsert';
 PouchDB.plugin(pouchdbUpsert);
 
 interface UpsertDocModel {

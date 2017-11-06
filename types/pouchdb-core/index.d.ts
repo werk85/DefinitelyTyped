@@ -1,4 +1,4 @@
-// Type definitions for pouchdb-core 6.1
+// Type definitions for pouchdb-core 6.3
 // Project: https://pouchdb.com/
 // Definitions by: Simon Paulger <https://github.com/spaulg>, Jakub Navratil <https://github.com/trubit>,
 //                 Brian Geppert <https://github.com/geppy>, Frederico Galvão <https://github.com/fredgalvao>,
@@ -841,7 +841,7 @@ declare namespace PouchDB {
 //
 declare module 'pouchdb-core' {
   const PouchDb: PouchDB.Static;
-  export = PouchDb;
+  export default PouchDb;
 }
 
 declare var PouchDB: PouchDB.Static;

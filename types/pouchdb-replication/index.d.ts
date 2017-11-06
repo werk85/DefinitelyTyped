@@ -1,4 +1,4 @@
-// Type definitions for pouchdb-replication 6.1
+// Type definitions for pouchdb-replication 6.3
 // Project: https://pouchdb.com/
 // Definitions by: Jakub Navratil <https://github.com/trubit>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
@@ -209,5 +209,5 @@ declare namespace PouchDB {
 
 declare module 'pouchdb-replication' {
     const plugin: PouchDB.Plugin;
-    export = plugin;
+    export default plugin;
 }

@@ -1,4 +1,4 @@
-// Type definitions for pouchdb-adapter-leveldb 6.1
+// Type definitions for pouchdb-adapter-leveldb 6.3
 // Project: https://pouchdb.com/
 // Definitions by: Simon Paulger <https://github.com/spaulg>, Brian Geppert <https://github.com/geppy>, Frederico Galvão <https://github.com/fredgalvao>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
@@ -25,5 +25,5 @@ declare namespace PouchDB {
 
 declare module 'pouchdb-adapter-leveldb' {
     const plugin: PouchDB.Plugin;
-    export = plugin;
+    export default plugin;
 }
